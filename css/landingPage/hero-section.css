@@ -39,6 +39,27 @@ img {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+	.img-wrapper {
+		width: 52%;
+		margin: 0 auto;
+	}
+	#hero-section .heading-wrapper {
+		flex-direction: column;
+		justify-content: center;
+		margin-right: 8%;
+	}
+	#hero-section .desc {
+		position: absolute;
+		width: 20%;
+		right: 13%;
+	}
+	.hero-container {
+		display: flex;
+		position: relative;
+	}
+	.heading-wrapper .product-heading {
+		width: 100%;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

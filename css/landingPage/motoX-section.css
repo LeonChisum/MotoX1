@@ -64,6 +64,10 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+	#motoX-section .main-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

@@ -8,26 +8,10 @@ export default function Home() {
 					name='description'
 					content='A new electric motorcyle and dirtbike brand that will iginite the industry!'
 				/>
-				<script src='https://kit.fontawesome.com/83e4e82e26.js' crossorigin='anonymous'></script>
-				<link rel='preconnect' href='https://fonts.gstatic.com' />
-				<link rel='preconnect' href='https://fonts.gstatic.com' />
-				<link
-					href='https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Andika&display=swap'
-					rel='stylesheet'
-				/>
-
-				<link rel='apple-touch-icon' sizes='180x180' href='/favicon_package/apple-touch-icon.ico' />
-				<link rel='icon' type='image/png' sizes='32x32' href='/favicon_package/favicon-32x32.ico' />
-				<link rel='icon' type='image/png' sizes='16x16' href='/favicon_package/favicon-16x16.ico' />
-				<link rel='manifest' href='/favicon_package/site.webmanifest' />
-				<link rel='mask-icon' href='/favicon_package/safari-pinned-tab.svg' color='#5bbad5' />
-				<meta name='msapplication-TileColor' content='#da532c' />
-				<meta name='theme-color' content='#ffffff' />
-
 				<title>Moto - Iginite The Industry</title>
 			</Head>
 			<header>
-				<div className='main-container header-container'>
+				<div className='header-container'>
 					<div className='logo'>
 						<a href='/'>
 							<img src='/img/MotoLogo.png' alt='Moto Logo' />
@@ -45,7 +29,7 @@ export default function Home() {
 				</div>
 			</header>
 			<section id='hero-section'>
-				<div className='main-container'>
+				<div className='main-container hero-container'>
 					<div className='img-wrapper'>
 						<img
 							src='https://i.pinimg.com/originals/c7/fe/19/c7fe19a60682cf99bfda34f9e62a63e5.png'
