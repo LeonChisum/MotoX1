@@ -137,7 +137,8 @@ export default function Home() {
 				<div className='main-container'>
 					<div className='cta-info'>
 						<h2>Ready to Ride?</h2>
-						<form action='emailForm.php' autocomplete='on' method='POST'>
+						<form name='motox' autocomplete='on' method='POST' data-netlify='true'>
+							<input type='hidden' name='form-name' value='motox' />
 							<input type='email' id='email' name='email' placeholder='Email' required />
 							<br />
 							<input type='submit' value='Join Pre-Order List' />
