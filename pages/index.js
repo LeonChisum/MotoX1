@@ -38,7 +38,7 @@ export default function Home() {
 					</div>
 					<div className='heading-wrapper'>
 						<h2 className='product-heading'>Get a Feel For the New Ride</h2>
-						<a href='/'>Pre-order &rarr;</a>
+						<a href='/#cta-section'>Pre-order &rarr;</a>
 					</div>
 					<p className='desc'>
 						Become electrified with this new thrill. Feel what it's like to ride into the future with the
@@ -87,7 +87,7 @@ export default function Home() {
 						<h2 className='product-heading'>
 							<span>All new</span> MotoZoom
 						</h2>
-						<a href='#'>
+						<a href='/#cta-section'>
 							Pre-order <span className='arrow'>&rarr;</span>
 						</a>
 					</div>
@@ -118,7 +118,7 @@ export default function Home() {
 						<h2 className='product-heading'>
 							<span>Got Kids?</span> MotoMini
 						</h2>
-						<a href='#'>
+						<a href='/#cta-section'>
 							Pre-order <span className='arrow'>&rarr;</span>
 						</a>
 					</div>
