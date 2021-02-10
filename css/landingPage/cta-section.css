@@ -16,9 +16,8 @@
 	width: 100%;
 	top: 0;
 	left: 0;
-	background: #16171b;
+	background: var(--main-color);
 	position: absolute;
-	opacity: 0.4;
 	z-index: -1;
 }
 #cta-section .cta-info {
