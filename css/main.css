@@ -74,15 +74,28 @@ footer .footer-wrapper a {
 		font-family: 'Andika', sans-serif;
 		width: 35%;
 		display: flex;
+		font-size: small;
 		align-items: center;
 		justify-content: space-around;
 	}
 	header .header-container .header-menu a {
 		text-decoration: none;
 		color: #a5a9aa;
+		transition: all 0.2s ease-in-out;
+	}
+	header .header-container .header-menu a:hover {
+		color: var(--secondary-color);
 	}
 	.header-container .menu-btn {
 		display: none;
+	}
+	footer .footer-wrapper {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 10px 25px;
+		padding-bottom: 0;
+		height: auto;
 	}
 }
 

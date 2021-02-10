@@ -57,8 +57,17 @@ img {
 		display: flex;
 		position: relative;
 	}
-	.heading-wrapper .product-heading {
+	#hero-section .heading-wrapper .product-heading {
 		width: 100%;
+	}
+
+	#hero-section .heading-wrapper a {
+		margin-right: 65%;
+		padding-top: 9%;
+		transition: all 0.2s ease-in-out;
+	}
+	#hero-section .heading-wrapper a:hover {
+		color: var(--secondary-color);
 	}
 }
 

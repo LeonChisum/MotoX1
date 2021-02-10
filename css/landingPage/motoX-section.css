@@ -67,9 +67,28 @@
 	#motoX-section .main-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 100px 1fr;
+	}
+	#motoX-section .heading-wrapper {
+		justify-self: center;
+	}
+	#motoX-section .img-wrapper {
+		grid-column: 2/3;
+	}
+	#motoX-section .info-wrapper {
+		padding-top: 0;
+		flex-direction: row;
+		grid-row: 2/3;
+		justify-content: center;
+	}
+	#motoX-section .info-wrapper .icons {
+		margin-left: 5%;
 	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+	#motoX-section svg {
+		bottom: -83px;
+	}
 }

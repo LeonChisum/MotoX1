@@ -18,10 +18,10 @@ export default function Home() {
 						</a>
 					</div>
 					<div className='header-menu'>
-						<a href='/'>Moto X</a>
-						<a href='/'>Moto Zoomer</a>
-						<a href='/'>Moto Jr</a>
-						<a href='/'>Log In</a>
+						<a href='/#hero-section'>Moto X</a>
+						<a href='/#motoZoom-section'>Moto Zoom</a>
+						<a href='/#motoMini-section'>Moto Mini</a>
+						<a href='/#cta-section'>Pre-Order</a>
 					</div>
 					<div className='menu-btn'>
 						<i className='fas fa-bars'></i>
@@ -83,7 +83,7 @@ export default function Home() {
 			</section>
 			<section id='motoZoom-section'>
 				<div className='main-container'>
-					<div className='heading-wrapper'>
+					<div className='heading-wrapper zoom-wrapper'>
 						<h2 className='product-heading'>
 							<span>All new</span> MotoZoom
 						</h2>
@@ -94,21 +94,25 @@ export default function Home() {
 					<div className='img-wrapper'>
 						<img src='./img/MotoX.png' alt='Moto X bike' />
 					</div>
-					<p className='desc'>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-						laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-						beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-						odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-					</p>
-					<p className='desc'>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-						laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-						beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-						odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-					</p>
+					<div className='desc-container'>
+						<p className='desc'>
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+							laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+							architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+							aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+							voluptatem sequi nesciunt.
+						</p>
+						<p className='desc'>
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+							laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+							architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+							aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+							voluptatem sequi nesciunt.
+						</p>
+					</div>
 				</div>
 			</section>
-			<section id='motoZoom-section'>
+			<section id='motoZoom-section' id='motoMini-section'>
 				<div className='main-container'>
 					<div className='heading-wrapper'>
 						<h2 className='product-heading'>
@@ -142,12 +146,13 @@ export default function Home() {
 				</div>
 			</section>
 			<footer id='contact'>
-				<div className='main-container'></div>
-				<div className='footer-wrapper'>
-					<h5>Moto | A New Way To Ride</h5>
-					<a href='http://www.facebook.com/'>Contact</a>
-					<a href='http://www.twitter.com/'>Stay Updated</a>
-					<a href='http://www.twitter.com/'>Pre-Order</a>
+				<div className='main-container'>
+					<div className='footer-wrapper'>
+						<h5>Moto | A New Way To Ride</h5>
+						<a href='http://www.facebook.com/'>Contact</a>
+						<a href='http://www.twitter.com/'>Stay Updated</a>
+						<a href='http://www.twitter.com/'>Pre-Order</a>
+					</div>
 				</div>
 			</footer>
 		</div>

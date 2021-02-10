@@ -1,10 +1,12 @@
-#motoZoom-section {
+#motoZoom-section,
+#motoMini-section {
 	padding: 7px 0px 55px 0px;
 }
 #motoZoom-section .heading-wrapper {
 	padding-bottom: 45px;
 }
-#motoZoom-section .heading-wrapper span {
+#motoZoom-section .heading-wrapper span,
+#motoMini-section .heading-wrapper span {
 	color: #9e0523;
 }
 .heading-wrapper a {
@@ -37,8 +39,22 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+	#motoZoom-section .heading-wrapper .product-heading {
+		width: auto;
+	}
+	.desc-container {
+		display: flex;
+	}
+	#motoZoom-section .zoom-wrapper {
+		padding-bottom: 8%;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+	#motoZoom-section .heading-wrapper {
+		width: auto;
+		z-index: 3;
+		position: relative;
+	}
 }
